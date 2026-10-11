@@ -1,0 +1,34 @@
+{
+	"provideLibs": [	
+		    "libdummy_binary_checkfc-x86_64-v2.so",
+		    "libdummy_binary_checkfc.so",
+		    "libdummy_binary_checkseapp-x86_64-v2.so",
+		    "libdummy_binary_checkseapp.so",
+		    "libdummy_binary_libsepolwrap-x86_64-v2.so.so",
+		    "libdummy_binary_libsepolwrap.so.so",
+		    "libdummy_binary_seamendc-x86_64-v2.so",
+		    "libdummy_binary_seamendc.so",
+		    "libdummy_binary_sepolicy-analyze-x86_64-v2.so",
+		    "libdummy_binary_sepolicy-analyze.so",
+		    "libdummy_binary_sepolicy-check-x86_64-v2.so",
+		    "libdummy_binary_sepolicy-check.so",
+		    "libdummy_binary_version-policy-x86_64-v2.so",
+		    "libdummy_binary_version-policy.so",
+		    "libdummy_ext_sepolicy-x86_64-v2.so",
+		    "libdummy_ext_sepolicy.so",
+		    "libsepolwrap-x86_64-v2.so",
+		    "libsepolwrap.so"
+	],
+	"requireLibs": [	
+		    "libbase.so",
+		    "libc++_shared.so",
+		    "libc.so",
+		    "libdl.so",
+		    "liblog.so",
+		    "libm.so",
+		    "libpcre2.so",
+		    "libselinux.so",
+		    "libsepol.so"
+	],
+	"visible": true
+}

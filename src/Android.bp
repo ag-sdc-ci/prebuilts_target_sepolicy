@@ -1,0 +1,81 @@
+// Auto-generated prebuilt Blueprint for system/sepolicy
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.sepolicy
+
+package {
+    default_applicable_licenses: ["system_sepolicy_license"],
+}
+
+license {
+    name: "system_sepolicy_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+        "legacy_unencumbered",
+    ],
+    license_text: [
+        "NOTICE",
+    ],
+}
+
+cc_prebuilt_binary {
+    name: "checkseapp",
+    srcs: ["bin/checkseapp"],
+    host_supported: true,
+    device_supported: true,
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_binary {
+    name: "checkfc",
+    srcs: ["bin/checkfc"],
+    host_supported: true,
+    device_supported: true,
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_binary {
+    name: "sepolicy-check",
+    srcs: ["bin/sepolicy-check"],
+    host_supported: true,
+    device_supported: true,
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_binary {
+    name: "version_policy",
+    srcs: ["bin/version_policy"],
+    host_supported: true,
+    device_supported: true,
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_binary {
+    name: "seamendc",
+    srcs: ["bin/seamendc"],
+    host_supported: true,
+    device_supported: true,
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_binary {
+    name: "sepolicy-analyze",
+    srcs: ["bin/sepolicy-analyze"],
+    host_supported: true,
+    device_supported: true,
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsepolwrap",
+    srcs: ["lib/libsepolwrap.so"],
+    host_supported: true,
+    recovery_available: true,
+    check_elf_files: false,
+    prefer: true,
+}
